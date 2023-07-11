@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    
+}
+body{
+    background: radial-gradient(rgba(0, 0, 255, 0.384),rgba(128, 0, 85, 0.699));
+}
+
+.header{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header h1{
+    font-size: 120px;
+    padding-bottom: 50px;
+    color: aliceblue;
+    text-decoration: wavy;
+}
+
+
+
+.signin{
+    padding-top: 100px;
+    position: relative;   
+}
+
+
+
+.signin .sign button{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+    color: rgb(212, 126, 20);
+    transition: all linear 0.3s;
+    cursor: pointer;
+    
+}
+.signin .sign button:hover{
+    font-size: 40px;
+    color: aqua;
+}
+
+.signin .sign{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+    top: 360px;
+      
+}
+
+.signin .form{
+    padding: 30px 50px;
+    position: absolute;
+    opacity: 0;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.466);
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    
+}
+
+.signin .form h2{
+    font-size: 30px;
+    padding-bottom: 0px;
+    color: aliceblue;
+    text-decoration: wavy;
+    text-transform: uppercase;
+    
+    
+}
+.signin .form .detail{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.signin .form .detail label{
+    text-transform: uppercase;
+}
+.form .login{
+    padding-top: 30px;
+}
+
+.form .login h4{
+    display: inline-block;
+    border: 2px dotted white ;
+    text-transform: uppercase;
+    transition: all linear 0.3s;
+}
+
+.form .login h4:hover{
+    font-size: 60px;
+    color: aqua;
+}
+
+.msg{
+    color: red;
+}
