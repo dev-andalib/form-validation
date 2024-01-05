@@ -44,7 +44,7 @@ body{
     height: 150px;
 }
 .signin .sign button:hover{
-    font-size: 40px;
+    font-size: 60px;
     color: aqua;
 }
 
@@ -54,7 +54,12 @@ body{
     transform: translateX(-50%);
     opacity: 1;
     top: 360px;
+    
       
+}
+
+.signin button span{
+    font-size: 40px;
 }
 
 .signin .form{
@@ -97,7 +102,7 @@ body{
 }
 
 .form .login h4:hover{
-    font-size: 60px;
+    font-size: 40px;
     color: aqua;
 }
 
