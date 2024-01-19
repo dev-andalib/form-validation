@@ -1,43 +1,41 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>TA</title>
-    <link rel="stylesheet" href="stylesheet1.css">
+    <link rel="stylesheet" href="stylesheet1.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
+    <div class="container">
+        <div class="header">
+            <h1>t.a corporation</h1>
+        </div>
+        <div class="signin">
+            <div class="sign">
+                <button>signin</button>
+            
+            </div>
+            
+            <div class="form">
+                <h2>to login <br>enter your details</h2>
+                <div class="detail 1">
+                    <label for="username">username</label>
+                    
+                    <input type="text" id="username" placeholder="    USERNAME">
+                    <div class="usermsg msg"></div>
+                </div>
     
-    <div class="header">
-        <h1>t.a corporation</h1>
-    </div>
-    <div class="signin">
-        <div class="sign">
-            <button>signin</button>
-        
-        </div>
-        
-        <div class="form">
-            <h2>to login <br>enter your details</h2>
-            <div class="detail 1">
-                <label for="username">username</label>
-                
-                <input type="text" id="username" placeholder="    USERNAME">
-                <div class="usermsg msg"></div>
+                <div class="detail 2">
+                    <label for="password">password</label>
+                    
+                    <input type="password" id="password" placeholder="    PASSWORD">
+                    <div class="passmsg msg"></div>
+                </div>
+                <a  href="#"   class="login"><h4>login</h4></a>
             </div>
-
-            <div class="detail 2">
-                <label for="password">password</label>
-                
-                <input type="password" id="password" placeholder="    PASSWORD">
-                <div class="passmsg msg"></div>
-            </div>
-            <a  href="#"   class="login"><h4>login</h4></a>
         </div>
+        <script src="jquery.min.js"></script>
+        <script src="script1.js"></script>
     </div>
-    <script src="jquery.min.js"></script>
-    <script src="script1.js"></script>
-</body>
-
+  </body>
 </html>
