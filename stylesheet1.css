@@ -1,121 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 a {
-    text-decoration: none;
-    
+  text-decoration: none;
 }
 
-body{
-    width: 100%;
-    
+body {
+  width: 100%;
 }
 
-.container{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(247deg,rgba(0, 0, 255, 0.384),rgba(128, 0, 85, 0.699));
-    background-repeat: no-repeat;
-    background-size: cover;
+.container {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    247deg,
+    rgba(0, 0, 255, 0.384),
+    rgba(128, 0, 85, 0.699)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.header{
-    text-align: center;
-    text-transform: uppercase;
+.header {
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.header h1{
-    font-size: 120px;
-    padding-bottom: 50px;
-    color: aliceblue;
-    text-decoration: wavy;
+.header h1 {
+  font-size: 120px;
+  padding-bottom: 50px;
+  color: aliceblue;
+  text-decoration: wavy;
 }
 
-
-
-.signin{
-    padding-top: 100px;
-    position: relative;   
+.signin {
+  padding-top: 100px;
+  position: relative;
 }
 
-
-
-.signin .sign button{
-    display: inline-block;
-    border-radius: 20px;
-    padding: 20px;
-    text-transform: uppercase;
-    color: rgb(212, 126, 20);
-    transition: all linear 0.3s;
-    cursor: pointer;
-    width: 300px;
-    height: 150px;
+.signin .sign button {
+  display: inline-block;
+  border-radius: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  color: rgb(212, 126, 20);
+  transition: all linear 0.3s;
+  cursor: pointer;
+  width: 300px;
+  height: 150px;
 }
-.signin .sign button:hover{
-    font-size: 60px;
-    color: aqua;
+.signin .sign button:hover {
+  font-size: 60px;
+  color: aqua;
 }
 
-.signin .sign{
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 1;
-    top: 360px;
-    
-      
+.signin .sign {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 1;
+  top: 360px;
 }
 
-.signin .sign button{
-    font-size: 50px;
+.signin .sign button {
+  font-size: 50px;
 }
 
-.signin .form{
-    padding: 30px 50px;
-    position: absolute;
-    opacity: 0;
-    text-align: center;
-    background-color: rgba(240, 248, 255, 0.466);
-    left: 50%;
-    transform: translateX(-50%);
-    top: 0;
-    
+.signin .form {
+  padding: 30px 50px;
+  position: absolute;
+  opacity: 0;
+  text-align: center;
+  background-color: rgba(240, 248, 255, 0.466);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  height: 330px;
+  border-radius: 16px;
 }
 
-.signin .form h2{
-    font-size: 30px;
-    padding-bottom: 0px;
-    color: aliceblue;
-    text-decoration: wavy;
-    text-transform: uppercase;
-    
-    
+.signin .form h2 {
+  font-size: 30px;
+  padding-bottom: 0px;
+  color: aliceblue;
+  text-decoration: wavy;
+  text-transform: uppercase;
 }
-.signin .form .detail{
-    padding-top: 20px;
-    padding-bottom: 10px;
+.signin .form .detail {
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
-.signin .form .detail label{
-    text-transform: uppercase;
+.signin .form .detail label {
+  text-transform: uppercase;
 }
-.form .login{
-    padding-top: 30px;
-}
+
 
 .form .login h4{
-    display: inline-block;
-    border: 2px dotted white ;
-    text-transform: uppercase;
-    transition: all linear 0.3s;
+  padding: 15px;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
-.form .login h4:hover{
-    font-size: 40px;
-    color: aqua;
+.form .login h4 {
+  display: inline-block;
+  border: 2px solid rgb(240, 128, 221);
+  text-transform: uppercase;
+  transition: all linear 0.3s;
+  border-radius: 10px;
 }
 
-.msg{
-    color: red;
+.form .login h4:hover {
+  color: rgb(255, 0, 200);
+  margin-top: 10px;
+}
+
+.msg {
+  color: red;
 }
